@@ -1,0 +1,6 @@
+# Compile Source Locally #
+documentation/*
+!documentation/*.tex
+!documentation/*.bib
+!documentation/dkchicago.bst
+!documentation/compile.sh
