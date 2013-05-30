@@ -1,0 +1,124 @@
+\chapter{Findings og designidéer}
+Baseret på gruppens arbejde med de forskellige metoder, som blev præsenteret i det forrige, har gruppen fået afdækket en del resultater i forhold til den valgte organisation. 
+
+På baggrund af disse resultater har gruppen udarbejdet nogle tidlige designidéer. Disse vil kort blive fremlagt sammen med overvejelser om, hvordan de passer overens med gruppens findings. 
+Gruppens nuværende design idé vil herefter blive præsenteret. 
+
+Hertil følger en række overvejelser omkring hvorfor netop denne designidé var relevant at behandle. Dette vil så lede over i en præsentation af de prototyper, der er blevet udarbejdet løbende.
+
+\subsection{Findings}
+Disse findings er et resultat af de anvendte metoder og samarbejdet med brugerne, som beskrevet i det foregående afsnit. Noget af dette har et overlap med ting beskrevet tidligere, men præsenteres her for at eksplicitere og give et overblik af gruppens findings.
+
+\begin{enumerate}[i]
+	\item Institut for (X)’s engagement på den nuværende lokation og i sin nuværende struktur ophører til jul 2014.
+	\item På instituttet hersker der i høj grad et ustruktureret arbejdsmiljø. Der er sjældent klare afgrænsede arbejdsopgaver og ingen faste mødetider.
+	\item De arbejdsopgaver, som folk udfører, varierer meget. Folk ved heller ikke nødvendigvis selv hvad de skal lave i løbet af dagen. Folk tager kontakt med andre på stedet og deltager spontant i forskellige projekter.
+	\item Den interne kommunikation i forbindelse med projekter foregår ofte ved at folk mødes og taler sammen ansigt til ansigt. Derudover bruges Facebook til at kommunikere i sammenspil med mails, sms’er og telefonsamtaler. Enkelte af grupperne på stedet har også deres egne hjemmesider med et forum.
+	\item Udover den interne kommunikation er det også et behov for flere af grupperne på stedet at kommunikere ting til offentligheden, eksempelvis i forbindelse med event-afholdelse.
+	\item Kommunikationen er en blanding af direkte og platformsbaseret kommunikation.
+	\item IT-løsninger er i brug på instituttet; Facebook, telefoni, Google Docs, Dropbox, gruppers egne hjemmesider, fora, m.m. Sideløbende er der dog en stor del, som foregår ved den fysiske tilstedeværelse på matriklen.
+	\item Den nuværende kommunikation er forvirrende og uorganiseret. Dette opstår ofte en del breakdowns i forhold til at sikre at beskeder når ud til alle modtagere og bliver læst.
+	\item Der er et behov for at samle kommunikation på ét sted, den interne såvel som den eksterne. Brugerne har et behov for at kommunikation forsimples; det har de givet udtryk for.
+	\item Brugere på stedet savner at have en portefølje, der kan fremvise deres arbejde og som de kan tage med sig videre efter deres tid på Instituttet.
+	\item Leje af bil og lokaler fungerer ikke optimalt. Der findes intet fælles organisering af ressourcerne på stedet; i stedet er der flere personer, man skal kontakte, for at finde ud af, om en pågældende ressource er reserveret.
+\end{enumerate}
+
+Se bilag B\footnote{\citep{Medie}} for en video, der dokumenterer en af gruppens kontekstuelle interviews. I denne video interviewes Simon Valentin, i forbindelse med arbejdet med at planlægge et musikevent på B//huset. I forbindelse med dette stillede vi Valentin en række spørgsmål om hans brug af teknologier som Google Drive og Facebook til at koordinere og organisere vigtige informationer og dokumenter, såsom mødeplaner, ansøgninger til fonde osv.
+
+Vi forsøgte at få afdækket information om organisationen og med inspiration i PACT-analysen stillede vi spørgsmål til at dække analysens 4 aspekter. Derudover forsøgte vi at foretage requirements elicitation\footnote{\citep{Benyon}[s.147]} ved løbende at komme med små design idéer og modtage hans feedback. Valentin kom desuden selv spontant med nogle krav. Videoen er et uddrag, som viser nogle af de centrale findings fra dette interview.
+
+\subsection{Tidlige designidéer}
+Vi har i løbet af processen behandlet flere designidéer. Disse er opstået i sammenspil med brugerne eller som respons på breakdowns, der blev observeret af gruppen eller fortalt af brugerne gennem user-stories.
+
+En tidlig idé var at lave et bookingsystem til Instituttets ressourcer (såsom lokaler og bil). Den opstod på baggrund af en række user stories, som beskrev, hvordan det ofte var svært at overskue hvornår bestemte ressourcer var til rådighed.
+
+Brugerne ville kunne logge ind og vælge en ting, de ville bruge og i hvilket tidsrum. Der er på Instituttet ikke en fastlagt praksis for, hvordan man f.eks. reserverer bilen, det kræver derfor at man skal gå ind på forskellige sider på nettet for at finde ud af om disse er i brug. Netop dette breakdown var et centralt argument for denne idé. 
+Vi valgte dog at gå væk fra denne idé af følgende årsager: 
+\begin{itemize}
+	\item Det sker oftest at brugerne pludselig skal bruge bilen uden at have planlagt det på forhånd, hvorfor et bookingsystem ikke ville have den store effekt,
+	\item brugerne skulle lære et nyt system at kende, blot for at kunne holde styr på en lille håndfuld ressourcer, og
+	\item flere samtaler med brugerne tydede på, at brugerne af den grund ikke gad at tage systemet i brug.
+\end{itemize}
+Således kunne vi altså observere at der fandtes et breakdown i arbejdsflowet, men at brugerne sandsynligvis ikke var interesseret i at løse dette med en nyt IT-system. I stedet blev der som regel foretaget et simpelt workaround: enten ventede man blot med at bruge ressourcen eller også skaffede man en erstatning.
+
+I forlængelse af idéen om bookingsystemet, kom vi med den idé at vi kunne lave en slags informationsskærm der skulle hænge et centralt sted nede på instituttet. Informationsskærmen skulle da give information om hvad der sker på instituttet på selve dagen og evt. i de nærmeste par dage. Denne information skulle da vises på en tiltalende måde, således at den udover blot at give information også skulle virke som en flot præsentationsform. Skærmens tilstedeværelse i selve miljøet ville komme det problem til livs at brugerne måde at agere på i høj grad er i det nære. Gruppens undersøgelser viser, at et system hvor folk ville være nødt til aktivt at finde en computer og gå på nettet, formentlig ikke ville blive brugt i så høj grad. Systemet ville kræve at brugerne indtaster information om forestående begivenheder. Gruppen fandt dog ikke noget væsentligt belæg for at brugerne ville tage sig tid til dette.
+
+\subsection{Det nuværende designforslag}
+Gruppens nuværende design er et projektstyrings- og samarbejdsplatform.
+Idéen er en webbaseret platform, der tillader integration med eksisterende teknologier, såsom Google Drive og Facebook. Systemet skal understøtte den eksisterende praksis på Instituttet ved at samle IT-løsninger, som brugerne i forvejen er bekendte med, men samtidig forsøge at give brugeren et overblik sådan at kommunikationsproblemer, filrod og andre breakdowns bliver undgået. 
+
+Systemet er bygget op omkring idéen med et projekt. Projekterne spiller den centrale rolle i dette system, da det er konteksten for arbejdet i Instituttet. Et projekt kan tilknyttes flere attributter såsom deadlines for ansøgning om midler, forskellige events, en fysisk placering, dokumenter og så videre, som kan redigeres som nødvendigt af brugerne. 
+
+Systemet skal både være fleksibelt, så det kan imødekomme mange forskellige typer projekter, mens det dog også er en væsentlig del af det konceptuelle design at systemet skal give brugerne en fast struktur at opbygge projektet omkring. Strukturen bør være klar og genkendelig, da mange brugere arbejder på tværs af flere projekter, og derfor vil have gavn af tilbagevendende elementer.
+For at guide denne struktur oprettes projekter med en ‘wizard’. Det vil sige at brugerne går ind og starter et nyt projekt og bliver således styret igennem processen. På den måde skal systemet forsøge at skabe en logistisk og æstetisk enigheden imellem projekterne. 
+
+Denne wizard skal ligeledes gøre det muligt at vælge hvilke af disse informationer, som er tilgængelige for offentligheden og hvilke, der kun er synlige for instituttets brugere. Alle projekter kan således have to lag, et ekstra lag detaljegrad der afspejler hvorvidt man er logget ind eller ej.
+
+Systemet skal fungere på den måde at hver bruger har en profil tilknyttet. En profil kan så være tilknyttet forskellige projekter og have forskellige arbejdsopgaver. Brugeren kan logge ind på systemet og se hvilke ændringer der er sket i de projekter som netop er relevant for brugeren selv, altså de projekter som brugeren er tilknyttet.
+
+Platformen skal foruden at facilitere den interne kommunikation også fungere som en præsentation af projekterne på instituttet for publikum udefra. Der skal være en klar adskillelse af hvilke informationer, der er tilgængelig for publikum og hvilke informationer, der kun er tilgængelig for folk fra instituttet. 
+
+Det skal ligeledes være repræsenteret på en æstetisk flot måde og på en simpel måde, hvor det er nemt at se sammenhængen imellem de to forskellige fremvisninger. Dette valg tager afsæt i at der er mange af brugerne, der på en eller anden måde beskæftiger sig med design og derfor bør programmet også understøtte denne visuelle tilgang til at arbejde med præsentationsformer.
+Når projektet har nået sin endelige afslutning skal det således også fungere som et element i en art portefølje. Brugerne skal kunne se et formål med at lægge det ekstra arbejde i projekterne, som det er at ajourføre det og dokumentere det gennem et IT-system.
+
+Ønsket om at præsentere sine projekter til publikum udfra nævnes eksplicit af Valentin og går også i tråd med at instituttet vil ophøre med at eksistere på sin nuværende form til jul 2014. Til den tid vil denne portefølje kunne anvendes, når der skal startes nye projekter. 
+
+\subsection{Prototyper}
+Gruppens prototyping indsats har været en løbende, iterativ indsats, men kan overordnet inddeles i tre stadier; en low-fidelity papirbaseret prototype, en low-fidelity prototype udformet i et softwareprogram samt den nuværende hi-fidelity prototype, som skal virke som eksempel på funktionalitet samt det æstetiske udtryk i et endeligt design.
+
+Den første iteration af de papirbaserede prototyper blev brugt på at indsnævre det konceptuelle design og handlede mere om at specificere funktionalitet end om at bestemme den æstetiske præsentation. Papir mediet var oplagt, idet vi ønskede nemt og hurtigt at kunne afprøve nye ideer som vores forestilling om og forståelse af designet ændrede sig. Vi mødtes med Valentin fra instituttet for at evaluere vores prototyper, og sammen med ham fik vi kørt endnu en iteration af prototyping igennem. 
+
+Herefter stod det tydeligere frem, hvilke funktionaliteter vores design skulle fokusere på: Det skulle behandle den todelte måde at præsentere et projekt (én til intern brug og én til ekstern visning), det skulle være nemt at oprette et projekt, det skulle være nemt at finde rundt i et projekt og i mellem projekter. 
+
+Vi begyndte herefter at skitsere vores tegninger i et software program beregnet på rapid prototyping.\footnote{http://gomockingbird.com} Denne iteration skulle fastlægge designet yderligere, inden vi begyndte at udvikle en hi-fi prototype. Disse prototyper er udformet på dansk, men gennem evaluering med brugerne på instituttet blev det tydeligt at ikke alle forstod dansk, og at vores design måtte behandle dette. Derfor er den senere prototype udformet på engelsk. 
+
+Ud af evalueringen blev det også tydeligt at nogle brugere havde svært ved at skelne visse elementer fra hinanden: Det skulle være tydeligere, når der blev henvist til et bestemt projekt, en bestemt bygning eller en bestemt fil. Vores senere prototype afspejler dette, ved at farvelægge elementerne på siden ud fra deres type.
+
+Udviklingen af hi-fi prototypen blev påbegyndt i den afsluttende del af projektet efter at alle andre metoder var behandlet. Da der på pågældende tidspunkt ikke var særlig meget tid tilbage at prototype i, blev gruppen i første omgang enige at prototypens fokus skulle ligge på en fremvisning af mulighederne i det konceptuelle design, frem for at gå i dybden i arbejdet med det fysiske design. 
+
+Vi opdagede dog hurtigt at det blev umuligt at undgå det fysiske design: Da funktionaliteten i det konceptuelle design i høj grad omhandler æstetiske problemstillinger (overskuelig struktur, genkendelig elementer, præsentation til udefrakommende, osv.) var det nødvendigt også at behandle det fysiske design. Mange af beslutningerne i det fysiske design følger på den måde som en indirekte konsekvens af overvejelserne i det konceptuelle design.
+
+Funktionaliteten i vores nuværende hi-fi prototype er begrænset, og prototypen fremstår i øjeblikket mest som et eksempel på de førnævnte fysiske design overvejelser, som er nødvendige for at kunne få det konceptuelle design til at fungere.
+
+I prototypen fremvises et eksempel på den todelte præsentation af et projekt til brugerne på instituttet henholdsvis udefrakommende besøgende. Vi har derfor fremstillet et projekt til anledningen. Projektet er et “event” og har derfor en dato for afholdelse samt en lokation og en entrépris.
+
+Når man besøger projektets side uden at være logget ind, er det kun en en del af projektets informationer som er tilgængeligt. Man bliver mødt af et billede, en kort projektbeskrivelse og nogle informationer om, hvor og hvornår, eventet finder sted. 
+
+Hvis man logger ind og igen besøger projektets side, bliver man endvidere mødt med en liste over tilknyttede medlemmer, seneste ændringer på projektet og dets filer samt en oversigt over vigtige datoer i forbindelse med arbejdet med projektet.
+
+Desuden fremviser prototypen hvorledes vi forestiller os at guide brugerne gennem oprettelsen af et projekt. Dette gøres ved at præsentere brugeren for en række valgmuligheder som automatisere oprettelsen af typiske elementer i projektarbejdet, såsom et budget, en kalender, en Facebook-gruppe m.m. Desuden kan brugeren vælge typen af projektet, samt hvorvidt projektet skal være offentligt tilgængeligt. Dette skal styrke projektet til at blive bedre formidlet udadtil.
+
+Vi bemærker at vi af tidsmæssige årsager endnu ikke har evalueret den seneste hi-fi prototype med brugerne på instituttet. Det ville være næste skridt i vores nuværende iteration, havde vi haft mere tid tilovers.
+
+\subsection{Scenarier}
+I det følgende præsenteres to brugsscenarier. Disse scenarier skal illustrere hvordan gruppen forestiller sig at produktet kunne blive anvendt. Der er således lagt fokus på, hvordan gruppen forestiller sig at produktet ville passe ind i den eksisterende arbejdskontekst, samtidig med at det viser noget af produktets funktionalitet. Vi bemærker dog at størstedelen af den beskrevne funktionalitet ikke er at finde i den nuværende prototype.
+
+\subsubsection{Konkret scenarie: Oprettelse af et event}
+Leif vil afholde et event på Godsbanen, hvor der skal komme mange mennesker. Dette event er et musik event, hvor skal afholdes koncert og laves en kunstudstilling. I den forbindelse skal Leif planlægge en masse forskellige ting: Scenen skal indrettes, der skal søges midler, laves visuals til koncerten, lægges et budget, inviteres musikere, sørges for transport for disse og mere.
+Leif har allerede snakket med to andre folk på stedet om at de godt kunne tænke sig at invitere Dorte til at komme og spille og det er sådan idéen til projektet er opstået. De tre har taget kontakt til Dorte, der gerne vil komme og spille, men derudover har de ikke lagt nogen plan for hvilke ting der skal gøres.
+
+Leif har fået til opgave at oprette et projekt inde i systemet. Leif sætter sig ned ved en computer, går ind på hjemmesiden. På én af siderne finder han en oversigt over kommende begivenheder på Instituttet. Disse forskellige begivenheder står side om side, med et billede, en titel og information om hvor og hvornår det bliver afholdt. Under titlen står der en kort beskrivelse af eventet. Han kan bl.a. se at der i den kommende weekend skal være en designworkshop, hvor der kommer en designer fra England, der vil dirigere workshoppen. 
+Leif klikker på en login-formular i venstre sidebar. Her indtaster han sine login-informationer - han er nemlig allerede en bruger i systemet. Herefter kan han klikke på “opret projekt”, hvorefter systemet tager ham til en side beregnet til oprettelse af nye projekter. 
+
+Leif kan nu gå i gang med at oprette det nye projekt. Han indtaster projektets navn, vælger nogle stikord til at kategorisere projektet og skriver endvidere en kort projektbeskrivelse.
+Han vælger at projektet er et event, og specificere endvidere at eventet er af typen “koncert”. Nu har han fortalt systemet at projektet skal have tilknyttet en bestemt dato og lokation, og Leif kan allerede nu bestemme entŕeprisen. 
+
+Han vælger endvidere at projektet er offentligt - systemet vil nu automatisk oprette en offentlig profil, som udefrakommende gæster kan se. Når afholdelsen for eventet nærmer sig vil eventet desuden være at finde på forsiden for instituttet, hvor han selv lige kiggede på workshop-eventet.
+
+Leif vælger en række elementer som skal tilknyttes elementet: et budget, et billedgalleri, en facebook gruppeside, m.m. Disse bliver automatisk oprettet efter en template.
+Den template han har valgt foreslår ham desuden nogle ansvarsområder; projektleder, fundraiser, event ansvarlig, booker, designer, PR. Disse arbejdsopgaver fremstår på projektsiden i en anden nuance der indikerer at dette ikke vil blive vist på projektets offentlige side. Leif kan ændre dette hvis han vil, men det gør han ikke. 
+
+Leif klikker nu på opgaven fundraiser og bliver så præsenteret med en menu hvor han kan vælge den ene af de to andre. Fordi Leif oprettede eventet er han automatisk blevet anført som projektleder men vælger i stedet booker og event ansvarlig. Da han fjerner sig selv fra projektleder bliver han bedt om at vælge en substitut og han vælger den sidste af de to andre.
+
+Til sidst vælger Leif et pressefoto af Dorte, som han lægger ind på projektsiden. Leif klikker på “Opret projekt” og bliver nu ført over til den side der viser en præsentation af projektet. Denne side ligner den han kom fra, blot her kan han ikke længere rette i informationen. Dette simplificerer fremstillingen og gør det nemmere at ændre fremstillingen så det fremhæver netop de dele af projektet der gør det interessant. Det er dette, sammen med valgfriheden i hvilke elementer der indgår i projektet, der netop understøtter muligheden for at bruge produktet som en portefølje.
+
+\subsubsection{Konkret scenarie: Løbende planlægning og udførsel af et projekt}
+Peter, Anders, Jens og Emil har sammen et projekt på Godsbanen: hver weekend holder de åbent i et lille cykelværksted i en skurvogn på området. Her kan man komme med sin defekte cykel, og de tre unge fyre vil så hjælpe med at reparere den for et lille beløb.
+
+Drengene skiftes i par til at være i værkstedet. På projektsidens indbyggede kalender kan de se, hvis tur det er til at arbejde. Endvidere har de gjort disse informationer offentligt tilgængelig så alle andre besøgende også kan se, hvem der er på arbejde i værkstedet i den kommende weekend.
+
+Desuden skal de én gang om måneden bestille nye cykeldele hjem. Derfor har de knyttet et dokument til deres projektside, hvor de løbende kan holde styr på hvilke dele, som de mangler. I slutningen af hver måned har de oprettet en privat begivenhed i deres kalender, så de bliver mindet om at bestille de manglende dele.
+
+Drengene har også behov for at holde styr på indtægter og udgifter i projektet. Derfor har de fået oprettet et budget i systemet. Når de logger ind, er budgettet at finde på forsiden at projektsiden.
+Det er ikke altid at der kommer nogen og besøger dem i deres værksted. De mener at de har behov for at få noget reklame for deres projekt, og for at nå ud til flere mennesker beder de systemet om at oprette en Facebook-gruppe og tilknytte den til projektsiden. Nu kan deres venner og familie dele og “synes godt om” deres projekt. Drengene tager desuden en masse billeder af deres værksted og uploader dem til projektsiden. De bliver automatisk delt til Facebook gruppen, så folk kan se dem.
+
